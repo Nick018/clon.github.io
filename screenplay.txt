@@ -7,3 +7,39 @@ git add screenplay.txt // add to comite file screenplay.txt
 git diff // display differences files, whom tracks
 =============
 git add screenplay.txt // write change of file from working area to staging area
+=============
+git commit //A commit is the last step in our Git workflow. A commit permanently
+             stores changes from the staging area inside the repository.
+
+
+             git commit is the command we'll do next. However, one more bit of
+             code is needed for a commit: the option -m followed by a message.
+             Here's an example:
+
+                 |||git commit -m "Complete first line of dialogue"|||
+
+
+                Standard Conventions for Commit Messages:
+
+
+                Must be in quotation marks
+                Written in the present tense
+                Should be brief (50 characters or less) when using -m
+=====================
+======================
+Deploy Your Website to GitHub Pages
+Add the Remote
+
+Next, Git needs to know what repo will store your site's content.
+
+In this case, the repo will be the one you created on GitHub earlier.
+
+To specify the repo using Git, we'll have to add the remote and label it as the origin.
+
+    The remote is the URL of the repo that will store your site's contents.
+
+    The origin is an alias for the remote. You can think of an alias as an abbreviation or a substitute name. This means that instead of having to always type the lengthy remote URL over and over again, you can simply refer to it as origin later on.
+
+In the terminal, you can add the remote with the following command:
+git remote add origin https://github.com/Nick018/clon.github.io.git
+

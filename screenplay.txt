@@ -1,0 +1,9 @@
+Witch wakes up.
+She takes her broom.
+=============
+git init //create workplace with bunch emty folders
+git status // display files from home directory and highlights tracking files
+git add screenplay.txt // add to comite file screenplay.txt
+git diff // display differences files, whom tracks
+=============
+git add screenplay.txt // write change of file from working area to staging area
